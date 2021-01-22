@@ -1,0 +1,33 @@
+@mixin logo {
+    .logo{
+        img{
+            height:45px;
+            width:115px;
+        }
+    }
+}
+@mixin heading{
+    .heading{
+        display:flex;
+        // align-items: center;
+        img{
+            height: 45px;
+            width:45px;
+        }
+        
+    }
+}
+@mixin list{
+    li{
+        padding-bottom:5px;
+        i{
+            color:$primaryColor;
+            padding-right:10px;
+            font-size:18px;
+        }
+        span{
+            font-size:16px;
+            color:$black;
+        }
+    }
+}
